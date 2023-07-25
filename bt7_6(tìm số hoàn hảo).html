@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=+prompt("Nhập 1 số bất kỳ để kiểm tra có phải số hoàn hảo");
+        let t = 0;
+            for (i = 1; i < a; i++) {
+                if (a % i == 0) {
+                    t += i;
+                }
+            }
+            if (t == a) {
+                console.log("la so hoan hao");
+            } else {
+                console.log("ko phai la so hoan hao");
+            }
+    </script>
+</body>
+</html>

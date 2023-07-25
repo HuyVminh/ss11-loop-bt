@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        do {
+            a = +prompt("Nhập số nguyên bất kỳ");
+        } while (a < 2 || a > 100); // dk de ko bat nhap nua
+        for (i = 2; i <= a; i++) {
+            b = Math.pow(i, 2);
+            if (b % 2 !== 0) {
+                continue;
+            }
+            console.log(Math.pow(i,2));
+        }
+    </script>
+</body>
+
+</html>
